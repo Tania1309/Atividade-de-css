@@ -1,0 +1,99 @@
+section {
+    min-height: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#azul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f0faff;
+}
+
+#azul h2 {
+    color: #0ea5e9;
+    border-left: 5px solid #0ea5e9;
+    padding-left: 10px;
+}
+
+.card {
+    background-color: #0ea5e9;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#verde {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5f8e4;
+}
+
+#verde h2 {
+    color: #1c9b5a;
+    border-left: 5px solid #1c9b5a;
+    padding-left: 10px;
+}
+
+#texto h3 {
+    color: #1c9b5a;
+}
+
+#laranja {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcf2dd;
+}
+
+#laranja h2 {
+
+    color: #f7b708;
+    border-left: 5px solid #f7b708;
+    padding-left: 10px;
+    text-align: center;
+}
+
+#caixa {
+    text-align: center;
+    background-color: white;
+    width: 300px;
+}
+#caixa span{
+    font-weight: bold;
+}
+
+#roxo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0e4f8;
+}
+
+#roxo h2 {
+    color: #731c9b;
+    border-left: 5px solid #731c9b;
+    padding-left: 10px;
+    text-align: center;
+}
+
+#imagem {
+    background-image: url(cafe.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+#legenda {
+    border-radius: 10px;
+    width: 600px;
+    background-color: #ffffff;
+}
+
+#legenda p {
+    text-align: center;
+}
